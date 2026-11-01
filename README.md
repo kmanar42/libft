@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 common core by kmanar.*
+This project has been created as part of the 42 curriculum by kmanar.
 
 # Libft
 
