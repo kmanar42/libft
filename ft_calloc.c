@@ -6,17 +6,17 @@
 /*   By: kmanar <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 17:13:50 by kmanar            #+#    #+#             */
-/*   Updated: 2026/11/01 17:13:52 by kmanar           ###   ########.fr       */
+/*   Updated: 2026/11/01 22:52:54 by kmanar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *calloc(size_t count, size_t size)
+void	*ft_calloc(size_t count, size_t size)
 {
-	void *ptr;
+	void	*ptr;
 
-	if (size && count < (size_t)-1 / size)
+	if (size && count > (size_t)-1 / size)
 		return (NULL);
 	ptr = malloc(count * size);
 	if (!ptr)
@@ -24,4 +24,3 @@ void *calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
-

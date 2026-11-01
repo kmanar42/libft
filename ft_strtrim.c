@@ -6,7 +6,7 @@
 /*   By: kmanar <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 22:21:56 by kmanar            #+#    #+#             */
-/*   Updated: 2026/10/29 22:38:21 by kmanar           ###   ########.fr       */
+/*   Updated: 2026/11/01 21:48:27 by kmanar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	start;
 	size_t	end;
 
-	if (!s1 || !s2)
+	if (!s1 || !set)
 		return (NULL);
 	start = 0;
 	end = ft_strlen(s1);

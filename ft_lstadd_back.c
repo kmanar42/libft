@@ -6,7 +6,7 @@
 /*   By: kmanar <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 17:47:55 by kmanar            #+#    #+#             */
-/*   Updated: 2026/11/01 18:54:52 by kmanar           ###   ########.fr       */
+/*   Updated: 2026/11/01 21:54:30 by kmanar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		*lst = new;
 		return ;
 	}
-	last = ft_stlast(*lst);
+	last = ft_lstlast(*lst);
 	last->next = new;
 }
 /*int	main(void)
@@ -37,4 +37,5 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	printf("%s\n", (char *)lst->next->content);
 	printf("%s\n", (char *)lst->next->next->content);
 	return (0);
-*/}
+}
+*/
