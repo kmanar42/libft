@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by kmanar.*
+*This project has been created as part of the 42 common core by kmanar.*
 
 # Libft
 
@@ -17,8 +17,8 @@ The library contains **43 functions**, including functions for character checkin
 Clone the repository:
 
 ```bash
-git clone https://github.com/kmanar42/libft.git
-cd libft
+git clone (Repo)
+cd (repo)
 ```
 
 Compile the library:
@@ -48,13 +48,6 @@ int main(void)
     ft_putstr_fd("Hello 1337!\n", 1);
     return (0);
 }
-```
-
-Compile with:
-
-```bash
-cc main.c -L. -lft -o program
-./program
 ```
 
 ## Library Functions
@@ -149,8 +142,8 @@ References used to understand C programming and standard library behavior:
 
 - [C reference](https://en.cppreference.com/w/c)
 - [Linux manual pages](https://man7.org/linux/man-pages/)
-- [GNU C Library documentation](https://www.gnu.org/software/libc/manual/)
-- [42 Norminette](https://github.com/42School/norminette)
+- Ai for deep understanding
+- My peers
 
 ### AI Usage
 
@@ -162,5 +155,6 @@ The functions were implemented and tested by me as part of my learning process.
 
 ## Author
 
-**kmanar**  
+**kmanar  (L3VI)**
+
 1337 Coding School | 42 Network
