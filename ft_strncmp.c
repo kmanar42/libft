@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmanar <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: kmanar <kmanar@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 13:02:58 by kmanar            #+#    #+#             */
-/*   Updated: 2026/10/29 13:03:00 by kmanar           ###   ########.fr       */
+/*   Updated: 2026/11/04 16:20:34 by kmanar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-//#include <stdio.h>
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

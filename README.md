@@ -49,6 +49,11 @@ int main(void)
     return (0);
 }
 ```
+To compile use :
+```
+gcc -Warn -Wextra -Werror `Test.c`
+./a.out
+```
 
 ## Library Functions
 
@@ -147,9 +152,10 @@ References used to understand C programming and standard library behavior:
 
 ### AI Usage
 
-I used ChatGPT as a learning assistant during this project.
+I used `AI` as a learning assistant during this project.
 
 AI helped me understand C concepts such as pointers, memory allocation, string manipulation, and linked lists. I also used it to explain function behavior, visualize memory operations, discuss edge cases, and help debug compilation errors.
+AI also helped me organize and write this `README.md`.
 
 The functions were implemented and tested by me as part of my learning process.
 

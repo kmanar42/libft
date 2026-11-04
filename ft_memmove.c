@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmanar <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: kmanar <kmanar@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/01 17:16:57 by kmanar            #+#    #+#             */
-/*   Updated: 2026/11/01 21:21:42 by kmanar           ###   ########.fr       */
+/*   Created: 2026/10/15 16:35:53 by kmanar            #+#    #+#             */
+/*   Updated: 2026/11/04 18:05:19 by kmanar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "stdio.h"
-
-// #include "libft.h"
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
@@ -42,11 +40,9 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/* int main(void)
+/*int main(void)
 {
-	char	str[] = "ABCDE";
-
-	ft_memmove(str + 1, str, 5);
-	printf("%s\n", str);
-}
-*/
+     char str[] = "ABCDE";
+     ft_memmove(str + 1, str, 5);
+     printf("%s\n", str);
+}*/

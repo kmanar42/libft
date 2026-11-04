@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kmanar <kmanar@student.1337.ma>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/11/02 14:19:35 by kmanar            #+#    #+#             */
+/*   Updated: 2026/11/04 16:20:34 by kmanar           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	count_digits(long n)
@@ -17,6 +29,7 @@ static int	count_digits(long n)
 	}
 	return (len);
 }
+
 char	*ft_itoa(int n)
 {
 	char	*str;
@@ -30,14 +43,13 @@ char	*ft_itoa(int n)
 		return (NULL);
 	str[len] = '\0';
 	if (num < 0)
-	{
-		str[0] = '-';
 		num = -num;
-	}
-	while (len > 0 && str[len - 1] != '-')
+	while (len > 0)
 	{
 		str[--len] = (num % 10) + '0';
 		num /= 10;
 	}
+	if (n < 0)
+		str[0] = '-';
 	return (str);
 }
